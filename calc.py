@@ -7,5 +7,7 @@ class Calculator:
     def add(self, x, y):
         return x + y
 
-cal = Calculator()
-print(cal.add(2, 3))
+
+if __name__ == '__main__':
+    cal = Calculator()
+    print(cal.add(2, 3))
